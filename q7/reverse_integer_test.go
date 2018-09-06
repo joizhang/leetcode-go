@@ -1,10 +1,10 @@
 package q7
 
 import (
-	"testing"
 	"fmt"
-	"reflect"
 	"github.com/stretchr/testify/assert"
+	"reflect"
+	"testing"
 )
 
 func Test_type(t *testing.T) {

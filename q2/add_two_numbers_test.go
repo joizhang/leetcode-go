@@ -2,8 +2,8 @@ package q2
 
 import (
 	"fmt"
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 type para struct {

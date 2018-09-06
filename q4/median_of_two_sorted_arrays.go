@@ -3,13 +3,13 @@ package q4
 import "math"
 
 /*
-left_part          |        right_part
+      left_part          |        right_part
 A[0], A[1], ..., A[i-1]  |  A[i], A[i+1], ..., A[m-1]
 B[0], B[1], ..., B[j-1]  |  B[j], B[j+1], ..., B[n-1]
 
 1) len(left_part) == len(right_part)
 2) max(left_part) <= min(right_part)
- */
+*/
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	m, n := len(nums1), len(nums2)
 	if m > n {

@@ -1,10 +1,11 @@
 package q8
 
 import (
-	"strings"
 	"math"
+	"strings"
 )
 
+// 8. String to Integer
 func myAtoi(str string) int {
 	res := 0
 	str = strings.TrimSpace(str)

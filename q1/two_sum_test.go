@@ -1,8 +1,8 @@
 package q1
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 type para struct {

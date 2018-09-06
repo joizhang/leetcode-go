@@ -11,7 +11,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	temp := &ListNode{0, nil}
 	res = temp
 	carry := 0
-	for l1 != nil || l2 != nil  {
+	for l1 != nil || l2 != nil {
 		if l1 != nil && l2 != nil {
 			temp.Next = &ListNode{(l1.Val + l2.Val + carry) % 10, nil}
 			carry = (l1.Val + l2.Val + carry) / 10

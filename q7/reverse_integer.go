@@ -2,6 +2,7 @@ package q7
 
 import "math"
 
+// 7. Reverse Integer
 func reverse(x int) int {
 	rev := 0
 	for x != 0 {
